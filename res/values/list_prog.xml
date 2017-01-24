@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Programmes">
+        
+        <item>Computer Science 1st Year Group1</item>
+        <item>Computer Science 1st Year Group2</item>
+        <item>Computer Science 1st Year Group3</item>
+        <item>Computer Science 1st Year Group4</item>
+        <item>Computer Science 2nd Year Group1</item>
+        <item>Computer Science 2nd Year Group2</item>
+        <item>Computer Science Final Year</item>
+        <item>Software Engineering 2nd Year Group1</item>
+        <item>Software Engineering 2nd Year Group2</item>
+        <item>Software Engineering Final Year</item>
+        <item>Managing Information Technology 1st Year</item>
+        <item>Managing Information Technology 2nd Year</item>
+        <item>Managing Information Technology Final Year</item>
+        <item>Internet Computing Final Year</item>
+        <item>Computing Final Year</item>
+        
+        <item>Msc. Software Engineering</item>
+        <item>Msc. Database and Web Based Systems</item>
+        <item>Msc. Advanced  Computing</item>
+        <item>Msc. Information Security</item>
+            
+    </string-array>
+</resources>

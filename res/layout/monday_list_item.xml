@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Classes -->
+    <TextView
+        android:id="@+id/classes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="4dip"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+    
+    <!-- Lecturer -->
+    <TextView android:id="@+id/lecturer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="8dip"
+        android:paddingBottom="6dip"
+        android:textSize="15dip"
+        android:layout_below="@id/classes"/>
+    
+    <!-- Type -->
+    <TextView android:id="@+id/type"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="8dip"
+        android:paddingBottom="6dip"
+        android:textSize="15dip"
+        android:layout_below="@id/lecturer"/>
+    
+    <!-- date -->
+    <TextView android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="3dip"/>
+    
+    <!-- Room -->  
+        <TextView android:id="@+id/room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/date"
+        android:padding="3dip"/>
+         
+   <!-- Time -->  
+       <TextView android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/room"
+        android:padding="3dip"/>
+       
+  <!-- Duration -->  
+       <TextView android:id="@+id/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/time"
+        android:padding="3dip"/>
+  
+ 
+</RelativeLayout>

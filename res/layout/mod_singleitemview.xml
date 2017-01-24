@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>  
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+ 
+ 
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+ 
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date" />
+    
+    <TextView
+        android:id="@+id/lead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content" />
+    
+    <TextView
+        android:id="@+id/cr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lead" />
+    
+    <TextView
+        android:id="@+id/lev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cr" />
+    
+    <TextView
+        android:id="@+id/sem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lev" />
+    
+    <TextView
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem" />
+    
+    <TextView
+        android:id="@+id/rat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pro" />
+    
+    <TextView
+        android:id="@+id/syl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rat" />
+    
+    <Button
+	    android:id="@+id/url1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/syl"
+	    android:text="Full Spec" />
+
+    
+
+ 
+</RelativeLayout>

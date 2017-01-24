@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+>    
+    
+    
+<ImageView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp" />
+ 
+    <TextView
+        android:id="@+id/nam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/phot" />
+ 
+    <TextView
+        android:id="@+id/emal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nam"
+        android:layout_toRightOf="@+id/phot" />
+    
+      <TextView
+        android:id="@+id/phon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emal"
+        android:layout_toRightOf="@+id/phot" />
+      
+      <TextView
+        android:id="@+id/shorty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phon"
+        android:layout_toRightOf="@+id/phot" />
+    
+    
+    <TextView
+        android:id="@+id/rom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shorty"
+        android:layout_toRightOf="@+id/phot" />
+</RelativeLayout>
