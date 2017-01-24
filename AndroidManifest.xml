@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tym"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="18" />
+
+     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+        <activity android:name=".Splashscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".SingleItemView" >
+        </activity>
+        <activity android:name=".SingleContacts" >
+        </activity>
+        <activity android:name=".ProgSingleItemView" >
+        </activity>
+        <activity android:name=".ModSingleItemView" >
+        </activity>
+        <activity android:name=".TimetableMain" >
+        </activity>
+        <activity android:name=".TimetablePage" >
+        </activity>
+        <activity android:name=".LinksListViewDemo" >
+        </activity>
+        <activity android:name=".WebViewDemo" >
+        </activity>
+        <activity android:name=".TabContainer"
+                    android:label="TimeTable">
+        </activity>
+        <activity android:name=".Monday"
+                    android:label="TimeTable">
+        </activity>
+        <activity android:name=".Tuesday"
+                    android:label="TimeTable">
+        </activity>
+        <activity android:name=".Wednesday"
+                    android:label="TimeTable">
+        </activity>
+        <activity android:name=".Thursday"
+                    android:label="TimeTable">
+        </activity>
+        <activity android:name=".Friday"
+                    android:label="TimeTable">
+        </activity>
+    </application>
+
+</manifest>
